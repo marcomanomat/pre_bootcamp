@@ -1,0 +1,14 @@
+class Language
+    def initialize(name, creator)
+        @name = name
+        @creator = creator
+    end
+    def intro
+        puts "Hi, I am the #{@name} lanuage, I was created by #{@creator}!"
+    end
+end
+
+ruby = Language.new("Ruby", "Matz")
+
+ruby.intro
+ruby.class
