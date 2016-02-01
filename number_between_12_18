@@ -1,0 +1,9 @@
+#Demonstrate that 15 is between 12 and 18 with a method.
+
+def btwn_12_18(num)
+    if num >=12 && num <=18
+        puts "#{num} is between 12 and 18!"
+    end
+end
+
+btwn_12_18(15)
