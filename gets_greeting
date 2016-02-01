@@ -1,0 +1,28 @@
+# Create a method called “greeting” that asks the user to input their name 
+# and returns a new String when we call (or ‘invoke’) that method that includes the name 
+#provided.
+# For example:
+
+=begin
+
+If the user enters “Chris” as a name, the output would be:
+
+... >
+
+Please enter your name!
+
+ Chris
+
+ Oh, hello Chris!
+
+=> nil
+...
+=end
+#they probably wanted a gets method!
+
+def greeting
+    puts "Please enter your name!" 
+    input = gets.chomp.capitalize
+    puts "Oh, hello #{input}!"
+end
+greeting
