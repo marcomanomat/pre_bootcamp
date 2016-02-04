@@ -1,0 +1,33 @@
+# Write a loop that will output the classic and beloved “One potato, two potato” nursery 
+#rhyme.  
+# The output should look like this:
+
+1 potato,
+
+2 potato,
+
+3 potato,
+
+4
+
+5 potato,
+
+6 potato,
+
+7 potato,
+
+More!
+
+=end
+
+nursery = 1
+while nursery <= 8
+    if nursery == 4
+        puts "4"
+    elsif nursery == 8
+    puts "More!"
+    else 
+        puts nursery.to_s + " potato,"
+    end
+        nursery +=1   
+end
